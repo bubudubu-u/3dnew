@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #0f172a;
+  color: white;
+  overflow-x: hidden;
+  font-family: sans-serif;
+}
+
+.glow {
+  box-shadow: 0 0 30px rgba(0,255,255,0.3);
+}
+
+.gradient-text {
+  background: linear-gradient(to right, #00ffff, #8b5cf6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.card-bg {
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(10px);
+}
